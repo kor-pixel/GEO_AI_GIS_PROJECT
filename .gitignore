@@ -161,7 +161,7 @@ dmypy.json
 
 # Outputs
 /out
-
+/geo
 # Pyre type checker
 .pyre/
 
