@@ -165,7 +165,7 @@ def estimate_height_m(row) -> float:
                 if v is not None and not pd.isna(v):
                     levels = float(str(v).strip())
                     if levels > 0:
-                        height_levels = 30 * levels
+                        height_levels = 3.3 * levels
                         print(height_levels)
                         # return 3.0 * levels # tweak if you prefer 3.0
                         return float(height_levels)
